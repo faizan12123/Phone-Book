@@ -31,7 +31,7 @@ public class MenuClass {
                         break;
                     case 2:
                         System.out.println("");
-                        System.out.println("Delete: ");
+                        System.out.println("Enter the name of the person you would like deleted: ");
                         String delete = scan.next();
                         book.delete(delete);
                         System.out.println(delete + " is removed from the phone book");
@@ -39,10 +39,10 @@ public class MenuClass {
                         break;
                     case 3:
                         System.out.println("");
-                        System.out.println("Search: ");
+                        System.out.println("Search name: ");
                         String findd = scan.next();
                         findd += scan.nextLine();
-                        System.out.println("Phone #: ");
+                        System.out.println("Phone#: ");
                         System.out.println(book.find(findd));
                         break;
                     case 4:
